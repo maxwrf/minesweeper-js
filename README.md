@@ -1,4 +1,5 @@
-Requires Node and yarn
-yarn add --dev webpack
-yarn add webpack-dev-server
-yarn add webpack-cli
+1. you need to have node and yarn installed
+2. clone the repo
+3. launch using
+```bash
+webpack-dev-server
