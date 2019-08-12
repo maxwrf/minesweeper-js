@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minesweeper</title>
+  <link rel="stylesheet" href="minesweeper.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="mx-auto d-flex justify-content-center mt-3">
+    <h1>Minesweeper</h1>
+  </div>
+  <div id="level" class="mx-auto d-flex justify-content-center mt-5">
+    <button class="align-self-center d-inline-flex p-2 bd-highlight" id="easy" disabled>Easy</button>
+    <button class="align-self-center d-inline-flex p-2 bd-highlight" id="medium">Medium</button>
+    <button class="align-self-center d-inline-flex p-2 bd-highlight" id="hard">Hard</button>
+  </div>
+  <table id="minesweeper">
+  </table>
+  <div class="mx-auto d-flex justify-content-center mt-3">
+    <h4 class="d-inline-flex p-2 bd-highlight" id="score">10 bombs left</h4>
+  </div>
+  <div class="mx-auto d-flex justify-content-center mt-3">
+    <h4 class="d-inline-flex p-2 bd-highlight" id="timer"></h4>
+  </div>
+  <div class="control mx-auto d-flex justify-content-center mt-3">
+    <button class="align-self-center d-inline-flex p-2 bd-highlight" id="reset">Reset</button>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
